@@ -16,6 +16,7 @@ games = {
         hasSave = false,
         iconUrl = "https://img.tapimg.com/market/images/3c2e9231bdd72391dffe9d46785a985a.png/appicon?t=1",
         coverUrl = "https://img2.tapimg.com/moment/etag/Fp2SdcwijoMGnHfzSM0-jo5SE7wf.jpg?imageMogr2/thumbnail/1080x9999%3E/quality/80/format/jpg/interlace/1/ignore-error/1&t=1",
+        notice = "各个关卡需要参考账号条件控制过关时间——重要！\n具体数据参考网盘文件，不符条件速通可能会导致封号。\n\n· 本辅助专为 PVE 内容打造，只为增强游戏体验\n· 不建议去打 PVP 相关内容（未测试 / 破坏生态 / 可能被举报）",
         files = {
             script = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/zmxy4/zmxy4.lua.enc",
