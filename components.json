@@ -1,0 +1,32 @@
+{
+  "_说明": "组件清单。改完跑 推送.bat 即可生效，无需发版。大文件放 123 云盘直链，本文件在 GitHub。",
+  "version": 1,
+  "updated": "2026-10-26",
+  "components": [
+    {
+      "id": "LIB",
+      "name": "外部共享库",
+      "desc": "开启高级功能（JS 注入）所需 · Frida Gadget 16.7.19",
+      "kind": "so",
+      "saveAs": "libmymod.so",
+      "size": 25822568,
+      "sha256": "61be4bbeae285bb19164dc9eebee58669f6ad2ab4b4d64422ea0a779731b0898",
+      "urls": [
+        "https://1816411002.cdn.123clouddisk.com/1816411002/36568542"
+      ],
+      "license": "本组件包含 Frida Gadget 16.7.19，遵循 wxWindows Library Licence。\nhttps://github.com/frida/frida\n如需替换该库，请使用上方直链下载独立副本覆盖 files/libmymod.so。"
+    },
+    {
+      "id": "SANDBOX",
+      "name": "多开沙箱",
+      "desc": "免 ROOT 运行游戏 · 开发中，暂不提供下载",
+      "kind": "link",
+      "saveAs": "",
+      "size": 0,
+      "sha256": "",
+      "urls": [],
+      "placeholder": true,
+      "license": ""
+    }
+  ]
+}
