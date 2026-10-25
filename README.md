@@ -127,53 +127,59 @@ python gen_catalog.py --check    # 只检查文件齐不齐，不生成
 
 ## 五、怎么发布
 
-> ⚠️ **先看这条**：本机直连 `github.com` 会被重置（`Connection was reset`），
-> 但 `api.github.com` 正常。所以 `git push` 在本机**用不了**，要改走 API 上传。
->
-> 两种方式选一个：
->
-> | 方式 | 适用 | 命令 |
-> |---|---|---|
-> | **A. API 上传（推荐）** | 本机网络下唯一可行 | `python push_via_api.py` |
-> | **B. git push** | 换到能直连 github.com 的网络（手机热点 / 开代理） | 见下方 |
+### 一条命令搞定（推荐）
 
-### 方式 A：API 上传（本机可用）
+改完任何东西，**双击 `推送.bat`** 就行。它会自动做三件事：
 
-**第一次要先建一个 Token**（只建一次）：
-
-1. 打开 https://github.com/settings/personal-access-tokens/new
-2. **Token name**：随便填，例如 `xy-content-push`
-3. **Expiration**：选 `7 days`（用完自动失效，安全）
-4. **Repository access** → 选 **Only select repositories** → 勾选 `xy-content`
-5. **Permissions** → 展开 **Repository permissions** → 找到 **Contents** → 改成 **Read and write**
-6. 拉到底点绿色 **Generate token**，复制那串以 `github_pat_` 开头的字符串（**只显示这一次**）
-7. 打开本目录的 `token.txt`，把 token 粘进去保存（该文件已在 `.gitignore`，不会上传）
-
-之后每次发布就两步：
-
-```bash
-python gen_catalog.py
-python push_via_api.py
+```
+1. python gen_catalog.py     ← 重新算 sha256、重写 games.lua
+2. python push_via_api.py    ← 上传到 GitHub
+3. 本地 git 留档
 ```
 
-脚本会逐个文件上传（共 33 个），已存在的自动覆盖，最后打印线上校验结果。
+看到 `完成: 成功 N, 失败 0` 就好了。**GitHub CDN 需要 1-5 分钟**刷新，之后 App 重新打开就能拿到新内容。
 
-### 方式 B：git push（需要网络能直连 github.com）
+### 手动执行（等价）
 
 ```bash
 cd /d D:\AndroidProcess\_mods-repo
 python gen_catalog.py
-git add -A
-git commit -m "更新内容"
-git push
+python push_via_api.py
 ```
 
-或者双击 `推送.bat`（它会自动先跑生成器，再提交、推送、校验）。
+### 为什么不用 git push
 
-> 推送完 **1～5 分钟**后 GitHub CDN 才刷新（`raw.githubusercontent.com` 有缓存），
-> App 端再打开就能拿到新版。
+本机网络环境下：
 
----
+| 目标 | 直连 | 走 Clash 代理 |
+| --- | --- | --- |
+| `github.com` | 慢/断 | 通 |
+| `raw.githubusercontent.com` | 超时 | 通 |
+| **`api.github.com`** | **直连就通** | — |
+
+`git push` 走的是 `github.com`，被墙；而 `push_via_api.py` 走的是 `api.github.com`，**直连就通，不用挂任何代理**。
+
+所以内容更新这条路**完全不依赖加速器** —— 机场跑了也不影响发版。
+
+### Token 说明
+
+`token.txt` 里存的是 GitHub fine-grained PAT，已加入 `.gitignore`，**不会上传**。
+
+| 项 | 值 |
+| --- | --- |
+| 权限 | 只有 `Contents: Read and write` |
+| 范围 | 只有 `Maruu1/xy-content` 这一个仓库 |
+| 有效期 | **7 天**（到期自动作废） |
+
+**token 过期后**怎么续：
+
+1. 打开 https://github.com/settings/personal-access-tokens/new （要挂 Clash）
+2. Token name 随便填；Expiration 选 7 天
+3. Repository access → Only select repositories → 勾 `xy-content`
+4. Permissions → Repository permissions → **Contents = Read and write**
+5. Generate token → 复制 → 粘进 `token.txt` 覆盖旧的
+
+配好之后发版反倒不需要代理了。
 
 ## 六、第一次建仓库要做的事
 
