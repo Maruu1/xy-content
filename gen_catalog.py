@@ -147,6 +147,9 @@ def main():
             "supportsAdvanced": g.get("supportsAdvanced", False),
             "iconUrl": g.get("iconUrl", ""),
             "coverUrl": g.get("coverUrl", ""),
+            # 【2026-10-26】目标游戏包名（逗号分隔多渠道），仅用于客户端
+            #   「本机已安装」徽标识别。留空 = 不做识别，不影响其他功能。
+            "pkg": (g.get("pkg") or "").strip(),
         }
         # 【整改 2026-10-25】详情页用到的文案与链接，原来由私有服务器 clubInfo 下发
         for key in ("notice", "help", "download", "group"):
