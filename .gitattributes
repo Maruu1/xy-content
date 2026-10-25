@@ -1,0 +1,9 @@
+# 脚本是二进制/需精确字节的文件：任何换行符转换都会改变 sha256，导致客户端校验失败
+*.lua.enc binary
+*_hooks.lua binary
+
+# 文本文件统一 LF，避免跨平台差异
+*.json text eol=lf
+*.py   text eol=lf
+*.md   text eol=lf
+games.lua text eol=lf
