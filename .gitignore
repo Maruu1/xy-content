@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# 绝不能提交：# GitHub Token / 推送辅助脚本
+token.txt
+推送.bat
+推送命令.txt
+push_via_api.py
