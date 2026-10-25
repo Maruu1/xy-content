@@ -147,6 +147,11 @@ def main():
             "iconUrl": g.get("iconUrl", ""),
             "coverUrl": g.get("coverUrl", ""),
         }
+        # 【整改 2026-10-25】详情页用到的文案与链接，原来由私有服务器 clubInfo 下发
+        for key in ("notice", "help", "download", "group"):
+            val = (g.get(key) or "").strip()
+            if val:
+                entry[key] = val
         if files:
             entry["files"] = files
         if scripts:
