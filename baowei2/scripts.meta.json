@@ -1,0 +1,14 @@
+{
+  "game": "baowei2",
+  "scripts": [
+    {
+      "id": "baowei2",
+      "name": "默认版",
+      "desc": "ad提供 ? 项修改",
+      "notice": "",
+      "file": "baowei2.lua.enc",
+      "needJs": false,
+      "order": 1
+    }
+  ]
+}
