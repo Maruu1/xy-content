@@ -1,0 +1,14 @@
+{
+  "game": "zmxy4",
+  "scripts": [
+    {
+      "id": "zmxy4",
+      "name": "默认版",
+      "desc": "提供 ? 项修改",
+      "notice": "",
+      "file": "zmxy4.lua.enc",
+      "needJs": true,
+      "order": 1
+    }
+  ]
+}
