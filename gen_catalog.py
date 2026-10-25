@@ -144,6 +144,7 @@ def main():
             "compat": g.get("compat", ""),
             "bitWidth": g.get("bitWidth", 64),
             "hasSave": g.get("hasSave", False),
+            "supportsAdvanced": g.get("supportsAdvanced", False),
             "iconUrl": g.get("iconUrl", ""),
             "coverUrl": g.get("coverUrl", ""),
         }
