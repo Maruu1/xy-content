@@ -7,7 +7,7 @@
 games = {
     {
         id = "1006",
-        name = "造梦西游4-HACKED",
+        name = "造梦西游4",
         luaGameId = "zmxy4",
         category = "mod",
         tag = "单机,角色扮演,横版格斗,西游",
