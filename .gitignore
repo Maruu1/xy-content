@@ -7,3 +7,6 @@ token.txt
 推送.bat
 推送命令.txt
 push_via_api.py
+# 签名私钥：绝不提交
+keys/
+*.sig
