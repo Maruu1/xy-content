@@ -1,0 +1,21 @@
+{
+  "_说明": "App 的公告与版本检查。改完直接跑 推送.bat 即可生效，无需发版。",
+  "_字段说明": {
+    "notice": "普通公告，显示在首页/设置页",
+    "popup": "弹窗公告，进入主页时弹出；留空则不弹",
+    "popupForce": "true = 强弹窗，必须点「知道了」才能关",
+    "version.latest": "最新版本号，如 1.4.18",
+    "version.number": "版本号数字，算法 major*1000000 + minor*1000 + patch；1.4.17 = 1004017",
+    "version.content": "更新说明；留空则不提示更新",
+    "version.url": "下载地址，格式「直链|外链」"
+  },
+  "notice": "",
+  "popup": "",
+  "popupForce": false,
+  "version": {
+    "latest": "1.4.17",
+    "number": 1004017,
+    "content": "",
+    "url": ""
+  }
+}
