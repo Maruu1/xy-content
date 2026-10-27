@@ -151,6 +151,11 @@ def main():
             #   「本机已安装」徽标识别。留空 = 不做识别，不影响其他功能。
             "pkg": (g.get("pkg") or "").strip(),
         }
+        # 【2026-10-26】付费内容：有 paid 字段就下发 paid = { id = "..." }
+        #   客户端据此打「需授权」徽标，并且必须先解 AES 才能拿到脚本。
+        paid_id = (g.get("paid") or "").strip()
+        if paid_id:
+            entry["paid"] = {"id": paid_id}
         # 【整改 2026-10-25】详情页用到的文案与链接，原来由私有服务器 clubInfo 下发
         for key in ("notice", "help", "download", "group"):
             val = (g.get(key) or "").strip()
