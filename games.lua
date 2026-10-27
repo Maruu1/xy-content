@@ -22,8 +22,8 @@ games = {
         files = {
             script = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/zmxy4/zmxy4.lua.enc",
-                sha256 = "26c4ce985b1cdee55f3d212ad966247efad400d637244b77e5e12cd0c627c8e1",
-                size = 13539,
+                sha256 = "cf2a6344a412c6be2402e11870f4283180f0f3e00517bbecc13e0279a55bfe06",
+                size = 13535,
             },
             hooks = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/zmxy4/zmxy4_hooks.lua",
@@ -39,8 +39,8 @@ games = {
         scripts = {
             {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/zmxy4/zmxy4.lua.enc",
-                sha256 = "26c4ce985b1cdee55f3d212ad966247efad400d637244b77e5e12cd0c627c8e1",
-                size = 13539,
+                sha256 = "cf2a6344a412c6be2402e11870f4283180f0f3e00517bbecc13e0279a55bfe06",
+                size = 13535,
                 name = "zmxy4",
             },
         },
@@ -145,7 +145,7 @@ games = {
         files = {
             script = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/pvz2/pvz2.lua.enc",
-                sha256 = "a90faa3343afc1edea424444a646951669665800a1a2e4eadd82d7237abb64e0",
+                sha256 = "0b4fb488d8a1288fafdad48989e0d81fcad1fa1496adb18791ae65970e2922f9",
                 size = 6139,
             },
             meta = {
@@ -157,7 +157,7 @@ games = {
         scripts = {
             {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/pvz2/pvz2.lua.enc",
-                sha256 = "a90faa3343afc1edea424444a646951669665800a1a2e4eadd82d7237abb64e0",
+                sha256 = "0b4fb488d8a1288fafdad48989e0d81fcad1fa1496adb18791ae65970e2922f9",
                 size = 6139,
                 name = "pvz2",
             },
