@@ -19,7 +19,7 @@
     {
       "id": "SANDBOX",
       "name": "多开沙箱",
-      "desc": "免 ROOT 运行游戏 · 摸鱼启动器内核 · 与主系统隔离",
+      "desc": "免 ROOT 运行游戏 · 沙盒内核 · 与主系统隔离",
       "kind": "apk",
       "packageName": "top.bienvenido.saas.i18n",
       "saveAs": "CATSandbox.apk",
