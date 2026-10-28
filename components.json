@@ -1,7 +1,7 @@
 {
   "_说明": "组件清单。改完跑 推送.bat 即可生效，无需发版。大文件放 123 云盘直链，本文件在 GitHub。",
   "version": 2,
-  "updated": "2026-10-28",
+  "updated": "2026-10-28b",
   "components": [
     {
       "id": "LIB",
@@ -23,12 +23,12 @@
       "kind": "apk",
       "packageName": "top.bienvenido.saas.i18n",
       "saveAs": "CATSandbox.apk",
-      "version": "1.0.14",
+      "version": "1.0.14 (CATSandbox v1.8)",
       "size": 6230286,
-      "sha256": "c1aee54af73754a0c9bcd238fb7313ff787091c6fd8dc202a49cb0f0be729cbe",
+      "sha256": "f3c4ae8daeaa58d4c077dd9ea889ffe6bfe3b7f9eec29b6c0e4f281b90eb14f8",
       "needVerify": true,
       "urls": [
-        "https://1816411002.cdn.123clouddisk.com/1816411002/38403265"
+        "https://1816411002.cdn.123clouddisk.com/1816411002/39839008"
       ],
       "license": "多开沙箱基于 VirtualApp 系容器内核。\n安装包已用本应用同一证书签名（SHA-256 70afd42d…8ecb），与主程序共享 sharedUserId，因此可读写沙箱内的存档目录。"
     }
