@@ -1,7 +1,7 @@
 {
   "_说明": "组件清单。改完跑 推送.bat 即可生效，无需发版。大文件放 123 云盘直链，本文件在 GitHub。",
-  "version": 1,
-  "updated": "2026-10-26",
+  "version": 2,
+  "updated": "2026-10-28",
   "components": [
     {
       "id": "LIB",
@@ -19,14 +19,18 @@
     {
       "id": "SANDBOX",
       "name": "多开沙箱",
-      "desc": "免 ROOT 运行游戏 · 开发中，暂不提供下载",
-      "kind": "link",
-      "saveAs": "",
-      "size": 0,
-      "sha256": "",
-      "urls": [],
-      "placeholder": true,
-      "license": ""
+      "desc": "免 ROOT 运行游戏 · 摸鱼启动器内核 · 与主系统隔离",
+      "kind": "apk",
+      "packageName": "top.bienvenido.saas.i18n",
+      "saveAs": "CATSandbox.apk",
+      "version": "1.0.14",
+      "size": 6230286,
+      "sha256": "c1aee54af73754a0c9bcd238fb7313ff787091c6fd8dc202a49cb0f0be729cbe",
+      "needVerify": true,
+      "urls": [
+        "https://1816411002.cdn.123clouddisk.com/1816411002/38403265"
+      ],
+      "license": "多开沙箱基于 VirtualApp 系容器内核。\n安装包已用本应用同一证书签名（SHA-256 70afd42d…8ecb），与主程序共享 sharedUserId，因此可读写沙箱内的存档目录。"
     }
   ]
 }
