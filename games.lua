@@ -22,8 +22,8 @@ games = {
         files = {
             script = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/zmxy4/zmxy4.lua.enc",
-                sha256 = "9167945a6daf5c154f38fef43f538de680476ad16a1ec504c7cc6baf7e10ade7",
-                size = 13535,
+                sha256 = "59e7640d60987499f18f06a749eda1b17b01b22a26f2bbf234de5aeac6e87b73",
+                size = 15823,
             },
             hooks = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/zmxy4/zmxy4_hooks.lua",
@@ -39,8 +39,8 @@ games = {
         scripts = {
             {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/zmxy4/zmxy4.lua.enc",
-                sha256 = "9167945a6daf5c154f38fef43f538de680476ad16a1ec504c7cc6baf7e10ade7",
-                size = 13535,
+                sha256 = "59e7640d60987499f18f06a749eda1b17b01b22a26f2bbf234de5aeac6e87b73",
+                size = 15823,
                 name = "zmxy4",
             },
         },
@@ -61,7 +61,7 @@ games = {
         files = {
             script = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/zmws/zmws.lua.enc",
-                sha256 = "ff30e560c2a72ef8d28fbbd6aa28917c2867b791e246c4ac1619cf474d4b049f",
+                sha256 = "56fb9003e2661391faa084523bf6fa39cb43c80f0c2f137a4fc37423f27e276e",
                 size = 10351,
             },
             hooks = {
@@ -78,7 +78,7 @@ games = {
         scripts = {
             {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/zmws/zmws.lua.enc",
-                sha256 = "ff30e560c2a72ef8d28fbbd6aa28917c2867b791e246c4ac1619cf474d4b049f",
+                sha256 = "56fb9003e2661391faa084523bf6fa39cb43c80f0c2f137a4fc37423f27e276e",
                 size = 10351,
                 name = "zmws",
             },
@@ -100,8 +100,8 @@ games = {
         files = {
             script = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/elin/elin.lua.enc",
-                sha256 = "16479bbb5b6310cf0640f492cf46682a491e335d40333f3661d22820809adec7",
-                size = 32523,
+                sha256 = "95cfdc9781910253de7953e3c1f1c02f7fb6d5dfc2745620f242dfde56a56c11",
+                size = 28807,
             },
             hooks = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/elin/elin_hooks.lua",
@@ -117,13 +117,13 @@ games = {
         scripts = {
             {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/elin/elin.lua.enc",
-                sha256 = "16479bbb5b6310cf0640f492cf46682a491e335d40333f3661d22820809adec7",
-                size = 32523,
+                sha256 = "95cfdc9781910253de7953e3c1f1c02f7fb6d5dfc2745620f242dfde56a56c11",
+                size = 28807,
                 name = "elin",
             },
             {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/elin/elin_patch.lua.enc",
-                sha256 = "b2f24457b03f92ff2f03b038833ee479a35f191ff16b828c235acc1513a2fac2",
+                sha256 = "9e4239511f246b2284f8450a4c92cc6b7eb85556c927f775d74d31448e68c78a",
                 size = 3659,
                 name = "elin_patch",
             },
@@ -145,7 +145,7 @@ games = {
         files = {
             script = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/pvz2/pvz2.lua.enc",
-                sha256 = "f973ca18679b9ffdbb1a7e25de75ccddf14ac6925af66971344750099376073b",
+                sha256 = "bf97b48d5a8c1b79bf04fbabb37f38141771bb9c213fb0dc98e95b071a368063",
                 size = 6139,
             },
             meta = {
@@ -157,7 +157,7 @@ games = {
         scripts = {
             {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/pvz2/pvz2.lua.enc",
-                sha256 = "f973ca18679b9ffdbb1a7e25de75ccddf14ac6925af66971344750099376073b",
+                sha256 = "bf97b48d5a8c1b79bf04fbabb37f38141771bb9c213fb0dc98e95b071a368063",
                 size = 6139,
                 name = "pvz2",
             },
@@ -179,7 +179,7 @@ games = {
         files = {
             script = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/greedycave/greedycave.lua.enc",
-                sha256 = "e6b9d6c025c167a0007328402d80ab652ec63f225d7124d989565f991a08a0e9",
+                sha256 = "c0f01ed5ad2f55635ad5067c74b924cdd52263e3b5d719fef1c6f0344e8c68d1",
                 size = 54315,
             },
             meta = {
@@ -191,7 +191,7 @@ games = {
         scripts = {
             {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/greedycave/greedycave.lua.enc",
-                sha256 = "e6b9d6c025c167a0007328402d80ab652ec63f225d7124d989565f991a08a0e9",
+                sha256 = "c0f01ed5ad2f55635ad5067c74b924cdd52263e3b5d719fef1c6f0344e8c68d1",
                 size = 54315,
                 name = "greedycave",
             },
@@ -213,7 +213,7 @@ games = {
         files = {
             script = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/baowei2/baowei2.lua.enc",
-                sha256 = "293b2c777b2172ddacb86ea1f991f5210ed65915aaab6d49f0499746ea277982",
+                sha256 = "f0707cd36ea470167feba38a31be89c4593e73d9774e8e4910b14ace0e73602e",
                 size = 3011,
             },
             meta = {
@@ -225,7 +225,7 @@ games = {
         scripts = {
             {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/baowei2/baowei2.lua.enc",
-                sha256 = "293b2c777b2172ddacb86ea1f991f5210ed65915aaab6d49f0499746ea277982",
+                sha256 = "f0707cd36ea470167feba38a31be89c4593e73d9774e8e4910b14ace0e73602e",
                 size = 3011,
                 name = "baowei2",
             },
@@ -247,7 +247,7 @@ games = {
         files = {
             script = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/deadcells/deadcells.lua.enc",
-                sha256 = "daa03f58dea2784c41f9caeefb726daf9f3193f508b6758b5c623fe90300c353",
+                sha256 = "a3d27913bd641dd408b52d78db168c1fbfcf550334fe0a75bf398be2ac8a3568",
                 size = 5995,
             },
             hooks = {
@@ -264,7 +264,7 @@ games = {
         scripts = {
             {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/deadcells/deadcells.lua.enc",
-                sha256 = "daa03f58dea2784c41f9caeefb726daf9f3193f508b6758b5c623fe90300c353",
+                sha256 = "a3d27913bd641dd408b52d78db168c1fbfcf550334fe0a75bf398be2ac8a3568",
                 size = 5995,
                 name = "deadcells",
             },
@@ -286,7 +286,7 @@ games = {
         files = {
             script = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/zmxy6/zmxy6.lua.enc",
-                sha256 = "0c9b25fb6f4e5ddbdc55d19f215ea1a11ad7f6d346c31dd994edd905cc078e43",
+                sha256 = "6cbf59250f2ee1f0208f8df792b8cd754af3c12e352046a3621a47ab196a3778",
                 size = 10595,
             },
             hooks = {
@@ -303,7 +303,7 @@ games = {
         scripts = {
             {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/zmxy6/zmxy6.lua.enc",
-                sha256 = "0c9b25fb6f4e5ddbdc55d19f215ea1a11ad7f6d346c31dd994edd905cc078e43",
+                sha256 = "6cbf59250f2ee1f0208f8df792b8cd754af3c12e352046a3621a47ab196a3778",
                 size = 10595,
                 name = "zmxy6",
             },
@@ -313,6 +313,6 @@ games = {
 
 common = {
     url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/common.lua.enc",
-    sha256 = "a38f93d03590d633c55eded5105477c8fd9ae9810cb06e745cabab9ddebfbfa8",
+    sha256 = "204fbf2c628a5bdbc746849b081c8c1f4a048842a7e8483b7c926124e0e5a123",
     size = 5623,
 }
