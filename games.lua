@@ -27,8 +27,8 @@ games = {
             },
             hooks = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/zmxy4/zmxy4_hooks.lua",
-                sha256 = "f32fa6b41cd28f80e709b97b4dc746e3949228352d6c1628fede4ca023d37cd2",
-                size = 99815,
+                sha256 = "cb3896fd29cd57febe362745d5d46608f12e3a4e4f2aa591ece27699e9f5a307",
+                size = 34522,
             },
             meta = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/zmxy4/scripts.meta.json",
@@ -66,8 +66,8 @@ games = {
             },
             hooks = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/zmws/zmws_hooks.lua",
-                sha256 = "bfdf96de646bfc7ea1dd6b5f9d5cd7ab1e582c3cd6df62441d502a6d6ae10c76",
-                size = 93293,
+                sha256 = "1abd3eba38d8b9d334bd5c91978eaa110f3b8c99b711e913a3297de40a14f978",
+                size = 34184,
             },
             meta = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/zmws/scripts.meta.json",
@@ -105,8 +105,8 @@ games = {
             },
             hooks = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/elin/elin_hooks.lua",
-                sha256 = "430ea748f275fceff1c1700e91e71885f5a903074eef5c3242f215079510a115",
-                size = 96530,
+                sha256 = "25bb6a442c3428a30ce27ae457ff6f9c5d628d87d765d5e386926fa2d9bc64ef",
+                size = 36795,
             },
             meta = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/elin/scripts.meta.json",
@@ -252,8 +252,8 @@ games = {
             },
             hooks = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/deadcells/deadcells_hooks.lua",
-                sha256 = "16137b65f99f280acf6c3b5ace7885fedd9d3aa6fa335edf8464ea8f379a11a6",
-                size = 485994,
+                sha256 = "ee78935640364d8015545b2aa46f77feae9b027612832a9b745600b681edfda3",
+                size = 66551,
             },
             meta = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/deadcells/scripts.meta.json",
@@ -291,8 +291,8 @@ games = {
             },
             hooks = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/zmxy6/zmxy6_hooks.lua",
-                sha256 = "537a332e59e173ad3bafebeca5d1a896948954a363d2a8c6b5f46b5d8a66b5e3",
-                size = 90413,
+                sha256 = "1580870f5d14a9128d982bfa63913717dd40b7d54ff7315775a96e4c85d59e00",
+                size = 35024,
             },
             meta = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/zmxy6/scripts.meta.json",
