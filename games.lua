@@ -20,7 +20,7 @@ games = {
         pkg = "org.cocos2dx.zmxy.m4399,org.cocos2dx.zmxy.mi",
         notice = "各个关卡需要参考账号条件控制过关时间——重要！\n具体数据参考网盘文件，不符条件速通可能会导致封号。\n\n· 本辅助专为 PVE 内容打造，只为增强游戏体验\n· 不建议去打 PVP 相关内容（未测试 / 破坏生态 / 可能被举报）",
         revoked = false,
-        expire = 1801209366,
+        expire = 1801209664,
         files = {
             script = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/zmxy4/zmxy4.lua.enc",
@@ -61,7 +61,7 @@ games = {
         coverUrl = "https://img2.tapimg.com/moment/etag/FpPA_2EiaKOFH3QpIHjRpLJM5rV8.jpg?imageMogr2/thumbnail/1080x9999%3E/quality/80/format/jpg/interlace/1/ignore-error/1&t=1",
         pkg = "com.xm4399.zmws.m4399",
         revoked = false,
-        expire = 1801209366,
+        expire = 1801209664,
         files = {
             script = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/zmws/zmws.lua.enc",
@@ -102,7 +102,7 @@ games = {
         coverUrl = "https://img2.tapimg.com/video/cover/FurK9IFtxmaBDzoCX3GQF7fTafP9.png?imageMogr2/thumbnail/1080x9999%3E/quality/80/format/jpg/interlace/1/ignore-error/1&t=1",
         pkg = "com.leiting.elona",
         revoked = false,
-        expire = 1801209366,
+        expire = 1801209664,
         files = {
             script = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/elin/elin.lua.enc",
@@ -149,7 +149,7 @@ games = {
         coverUrl = "https://img2.tapimg.com/video/cover/FhZN-6NLAAaQDuli9znRRFG5dDhk.jpg?imageMogr2/thumbnail/1080x9999%3E/quality/80/format/jpg/interlace/1/ignore-error/1&t=1",
         pkg = "com.popcap.pvz2cthdbk,com.popcap.pvz_na",
         revoked = false,
-        expire = 1801209366,
+        expire = 1793347264,
         files = {
             script = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/pvz2/pvz2.lua.enc",
@@ -185,7 +185,7 @@ games = {
         coverUrl = "https://img2.tapimg.com/video/cover/977745c1b479777abcebb86f82543326.bmp?imageView2/0/w/1080/h/608/format/jpg/interlace/1/ignore-error/1&t=1",
         pkg = "com.avalon.cave.cn.leiting",
         revoked = false,
-        expire = 1801209366,
+        expire = 1801209664,
         files = {
             script = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/greedycave/greedycave.lua.enc",
@@ -220,7 +220,28 @@ games = {
         iconUrl = "https://img-tc.tapimg.com/market/images/85f14c3965fecd601a26da85bc3d57f4.png/_tap_appicon.jpg",
         coverUrl = "https://img2-tc.tapimg.com/moment/etag/Fkx3eY5X85z12fQ8n1KIW2KV3Ihj_20260320201153.png/_tap_ugc.jpg",
         pkg = "com.carrot.iceworld",
-        revoked = true,
+        revoked = false,
+        expire = 1801209664,
+        files = {
+            script = {
+                url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/baowei2/baowei2.lua.enc",
+                sha256 = "f0707cd36ea470167feba38a31be89c4593e73d9774e8e4910b14ace0e73602e",
+                size = 3011,
+            },
+            meta = {
+                url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/baowei2/scripts.meta.json",
+                sha256 = "c167821c732d99bc80c7d036144d9eca43ab9b3638f28b05844f1a8f34733928",
+                size = 237,
+            },
+        },
+        scripts = {
+            {
+                url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/baowei2/baowei2.lua.enc",
+                sha256 = "f0707cd36ea470167feba38a31be89c4593e73d9774e8e4910b14ace0e73602e",
+                size = 3011,
+                name = "baowei2",
+            },
+        },
     },
     {
         id = "1013",
@@ -236,7 +257,7 @@ games = {
         coverUrl = "https://img2-tc.tapimg.com/moment/etag/Fi1kASspQUvu8Wa7kOZqkkjTxfZN_20250922203406.jpg/_tap_ugc.jpg",
         pkg = "com.bilibili.deadcells.mobile",
         revoked = false,
-        expire = 1801209366,
+        expire = 1801209664,
         files = {
             script = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/deadcells/deadcells.lua.enc",
@@ -277,7 +298,7 @@ games = {
         coverUrl = "https://img2-tc.tapimg.com/video/cover/FhwYHVuftLsflFzoFnwbBDbOrt2X_20260419234554.jpg/_tap_ugc.jpg",
         pkg = "com.xm4399.zmxy6hj,com.xm4399.zmxy6hj.mi",
         revoked = false,
-        expire = 1801209366,
+        expire = 1801209664,
         files = {
             script = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/zmxy6/zmxy6.lua.enc",
