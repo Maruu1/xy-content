@@ -99,7 +99,6 @@
       "id": "1011",
       "name": "保卫萝卜2",
       "luaGameId": "baowei2",
-      "revoked": true,
       "pkg": "com.carrot.iceworld",
       "category": "mod",
       "tag": "单机,策略,塔防,休闲,内购",
