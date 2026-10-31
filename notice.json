@@ -16,8 +16,8 @@
   "version": {
     "latest": "1.4.17",
     "number": 1004017,
-    "minNumber": 1004018,
-    "content": "测试：强制更新验证用，看到这个说明强更生效了",
+    "minNumber": 0,
+    "content": "",
     "url": ""
   }
 }
