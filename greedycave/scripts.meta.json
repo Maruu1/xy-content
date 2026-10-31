@@ -9,6 +9,15 @@
       "file": "greedycave.lua.enc",
       "needJs": false,
       "order": 1
+    },
+    {
+      "id": "greedycave_compat",
+      "name": "兼容版",
+      "desc": "硬偏移定位（仅适配官服 6.0.8，符号解析失效的机型用这个）",
+      "notice": "仅适配《贪婪洞窟》官服 6.0.8。渠道服/其他版本请用「默认版」；本版不读符号表，版本不符会导致功能失效或游戏异常。",
+      "file": "greedycave_compat.lua.enc",
+      "needJs": false,
+      "order": 2
     }
   ]
 }
