@@ -20,17 +20,17 @@ games = {
         pkg = "org.cocos2dx.zmxy.m4399,org.cocos2dx.zmxy.mi",
         notice = "各个关卡需要参考账号条件控制过关时间——重要！\n具体数据参考网盘文件，不符条件速通可能会导致封号。\n\n· 本辅助专为 PVE 内容打造，只为增强游戏体验\n· 不建议去打 PVP 相关内容（未测试 / 破坏生态 / 可能被举报）",
         revoked = false,
-        expire = 1801210033,
+        expire = 1801224082,
         files = {
             script = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/zmxy4/zmxy4.lua.enc",
-                sha256 = "59e7640d60987499f18f06a749eda1b17b01b22a26f2bbf234de5aeac6e87b73",
+                sha256 = "c98d48bb14a1ec8707f9684efaa6814a661b805e274a2ece35b8a7b182e87406",
                 size = 15823,
             },
             hooks = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/zmxy4/zmxy4_hooks.lua",
-                sha256 = "cb3896fd29cd57febe362745d5d46608f12e3a4e4f2aa591ece27699e9f5a307",
-                size = 34522,
+                sha256 = "8b7b91f2b7dd18ea646326178dec0ba6dfd6a84788d8e2318d98e254304f8b62",
+                size = 34422,
             },
             meta = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/zmxy4/scripts.meta.json",
@@ -41,7 +41,7 @@ games = {
         scripts = {
             {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/zmxy4/zmxy4.lua.enc",
-                sha256 = "59e7640d60987499f18f06a749eda1b17b01b22a26f2bbf234de5aeac6e87b73",
+                sha256 = "c98d48bb14a1ec8707f9684efaa6814a661b805e274a2ece35b8a7b182e87406",
                 size = 15823,
                 name = "zmxy4",
             },
@@ -61,17 +61,17 @@ games = {
         coverUrl = "https://img2.tapimg.com/moment/etag/FpPA_2EiaKOFH3QpIHjRpLJM5rV8.jpg?imageMogr2/thumbnail/1080x9999%3E/quality/80/format/jpg/interlace/1/ignore-error/1&t=1",
         pkg = "com.xm4399.zmws.m4399",
         revoked = false,
-        expire = 1801210033,
+        expire = 1801224083,
         files = {
             script = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/zmws/zmws.lua.enc",
-                sha256 = "56fb9003e2661391faa084523bf6fa39cb43c80f0c2f137a4fc37423f27e276e",
+                sha256 = "ccbccddcd62063d49e388300799cfc9a1fa635da7de66379824cead390d20ac0",
                 size = 10351,
             },
             hooks = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/zmws/zmws_hooks.lua",
-                sha256 = "1abd3eba38d8b9d334bd5c91978eaa110f3b8c99b711e913a3297de40a14f978",
-                size = 34184,
+                sha256 = "7ba7af1d8fe359bbafc04f0674cc863def333bdfdbadd478c9034db3f6876695",
+                size = 33343,
             },
             meta = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/zmws/scripts.meta.json",
@@ -82,7 +82,7 @@ games = {
         scripts = {
             {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/zmws/zmws.lua.enc",
-                sha256 = "56fb9003e2661391faa084523bf6fa39cb43c80f0c2f137a4fc37423f27e276e",
+                sha256 = "ccbccddcd62063d49e388300799cfc9a1fa635da7de66379824cead390d20ac0",
                 size = 10351,
                 name = "zmws",
             },
@@ -102,17 +102,17 @@ games = {
         coverUrl = "https://img2.tapimg.com/video/cover/FurK9IFtxmaBDzoCX3GQF7fTafP9.png?imageMogr2/thumbnail/1080x9999%3E/quality/80/format/jpg/interlace/1/ignore-error/1&t=1",
         pkg = "com.leiting.elona",
         revoked = false,
-        expire = 1801210033,
+        expire = 1801224083,
         files = {
             script = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/elin/elin.lua.enc",
-                sha256 = "95cfdc9781910253de7953e3c1f1c02f7fb6d5dfc2745620f242dfde56a56c11",
+                sha256 = "570b577c2f7b3b5af24616b47d94e9eaa8daef6aa693375256606345121dfef0",
                 size = 28807,
             },
             hooks = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/elin/elin_hooks.lua",
-                sha256 = "25bb6a442c3428a30ce27ae457ff6f9c5d628d87d765d5e386926fa2d9bc64ef",
-                size = 36795,
+                sha256 = "cd39964940a9b1b798ec234b8a4ca370b71a47dab48e4f6742bae94851a58f07",
+                size = 33051,
             },
             meta = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/elin/scripts.meta.json",
@@ -123,13 +123,13 @@ games = {
         scripts = {
             {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/elin/elin.lua.enc",
-                sha256 = "95cfdc9781910253de7953e3c1f1c02f7fb6d5dfc2745620f242dfde56a56c11",
+                sha256 = "570b577c2f7b3b5af24616b47d94e9eaa8daef6aa693375256606345121dfef0",
                 size = 28807,
                 name = "elin",
             },
             {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/elin/elin_patch.lua.enc",
-                sha256 = "9e4239511f246b2284f8450a4c92cc6b7eb85556c927f775d74d31448e68c78a",
+                sha256 = "32b37da1fd04acfa2f040902fa898d13ef18f524d816ebb6f9c0bc348ab9c3e6",
                 size = 3659,
                 name = "elin_patch",
             },
@@ -149,11 +149,11 @@ games = {
         coverUrl = "https://img2.tapimg.com/video/cover/FhZN-6NLAAaQDuli9znRRFG5dDhk.jpg?imageMogr2/thumbnail/1080x9999%3E/quality/80/format/jpg/interlace/1/ignore-error/1&t=1",
         pkg = "com.popcap.pvz2cthdbk,com.popcap.pvz_na",
         revoked = false,
-        expire = 1801210033,
+        expire = 1801224083,
         files = {
             script = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/pvz2/pvz2.lua.enc",
-                sha256 = "bf97b48d5a8c1b79bf04fbabb37f38141771bb9c213fb0dc98e95b071a368063",
+                sha256 = "c82f478f3c825db6ab19d79a7db24d59b89881b5a7a232af5abf7ecfae6172ae",
                 size = 6139,
             },
             meta = {
@@ -165,7 +165,7 @@ games = {
         scripts = {
             {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/pvz2/pvz2.lua.enc",
-                sha256 = "bf97b48d5a8c1b79bf04fbabb37f38141771bb9c213fb0dc98e95b071a368063",
+                sha256 = "c82f478f3c825db6ab19d79a7db24d59b89881b5a7a232af5abf7ecfae6172ae",
                 size = 6139,
                 name = "pvz2",
             },
@@ -185,25 +185,31 @@ games = {
         coverUrl = "https://img2.tapimg.com/video/cover/977745c1b479777abcebb86f82543326.bmp?imageView2/0/w/1080/h/608/format/jpg/interlace/1/ignore-error/1&t=1",
         pkg = "com.avalon.cave.cn.leiting",
         revoked = false,
-        expire = 1801210033,
+        expire = 1801224083,
         files = {
             script = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/greedycave/greedycave.lua.enc",
-                sha256 = "c0f01ed5ad2f55635ad5067c74b924cdd52263e3b5d719fef1c6f0344e8c68d1",
+                sha256 = "a80aed2f89f4b04ab1b6c37e61de32cb31c1ab7f4bcbca0b1fa6bc5d2b4199fa",
                 size = 54315,
             },
             meta = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/greedycave/scripts.meta.json",
-                sha256 = "4d77544c7823d80dc61fdd6e1a66726d2340d85633605366b7fc433f4ddfd33c",
-                size = 244,
+                sha256 = "969d764623965dbab81ad8809978bda4ecb88017e5b10553834d5cbb5c45cd09",
+                size = 682,
             },
         },
         scripts = {
             {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/greedycave/greedycave.lua.enc",
-                sha256 = "c0f01ed5ad2f55635ad5067c74b924cdd52263e3b5d719fef1c6f0344e8c68d1",
+                sha256 = "a80aed2f89f4b04ab1b6c37e61de32cb31c1ab7f4bcbca0b1fa6bc5d2b4199fa",
                 size = 54315,
                 name = "greedycave",
+            },
+            {
+                url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/greedycave/greedycave_compat.lua.enc",
+                sha256 = "99e0ff85ebc25229236972f3076ad7051030a906a7d179e8d2872cda438ecf0d",
+                size = 56367,
+                name = "greedycave_compat",
             },
         },
     },
@@ -221,11 +227,11 @@ games = {
         coverUrl = "https://img2-tc.tapimg.com/moment/etag/Fkx3eY5X85z12fQ8n1KIW2KV3Ihj_20260320201153.png/_tap_ugc.jpg",
         pkg = "com.carrot.iceworld",
         revoked = false,
-        expire = 1801210033,
+        expire = 1801224083,
         files = {
             script = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/baowei2/baowei2.lua.enc",
-                sha256 = "f0707cd36ea470167feba38a31be89c4593e73d9774e8e4910b14ace0e73602e",
+                sha256 = "331a50b5594e11c86fc40f1b4b1b922404dfed13090ed66e8efe2de769f918e4",
                 size = 3011,
             },
             meta = {
@@ -237,7 +243,7 @@ games = {
         scripts = {
             {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/baowei2/baowei2.lua.enc",
-                sha256 = "f0707cd36ea470167feba38a31be89c4593e73d9774e8e4910b14ace0e73602e",
+                sha256 = "331a50b5594e11c86fc40f1b4b1b922404dfed13090ed66e8efe2de769f918e4",
                 size = 3011,
                 name = "baowei2",
             },
@@ -257,17 +263,17 @@ games = {
         coverUrl = "https://img2-tc.tapimg.com/moment/etag/Fi1kASspQUvu8Wa7kOZqkkjTxfZN_20250922203406.jpg/_tap_ugc.jpg",
         pkg = "com.bilibili.deadcells.mobile",
         revoked = false,
-        expire = 1801210033,
+        expire = 1801224083,
         files = {
             script = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/deadcells/deadcells.lua.enc",
-                sha256 = "a3d27913bd641dd408b52d78db168c1fbfcf550334fe0a75bf398be2ac8a3568",
+                sha256 = "533bc647a15808142fa45a02e455769fb3c040207ebc48a8bb0ca5a79cd49362",
                 size = 5995,
             },
             hooks = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/deadcells/deadcells_hooks.lua",
-                sha256 = "ee78935640364d8015545b2aa46f77feae9b027612832a9b745600b681edfda3",
-                size = 66551,
+                sha256 = "d7a3ace5d3d0b783de9753f2f4cc8d0540281dcda5891a127cba6bf788d83033",
+                size = 66315,
             },
             meta = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/deadcells/scripts.meta.json",
@@ -278,7 +284,7 @@ games = {
         scripts = {
             {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/deadcells/deadcells.lua.enc",
-                sha256 = "a3d27913bd641dd408b52d78db168c1fbfcf550334fe0a75bf398be2ac8a3568",
+                sha256 = "533bc647a15808142fa45a02e455769fb3c040207ebc48a8bb0ca5a79cd49362",
                 size = 5995,
                 name = "deadcells",
             },
@@ -298,17 +304,17 @@ games = {
         coverUrl = "https://img2-tc.tapimg.com/video/cover/FhwYHVuftLsflFzoFnwbBDbOrt2X_20260419234554.jpg/_tap_ugc.jpg",
         pkg = "com.xm4399.zmxy6hj,com.xm4399.zmxy6hj.mi",
         revoked = false,
-        expire = 1801210033,
+        expire = 1801224083,
         files = {
             script = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/zmxy6/zmxy6.lua.enc",
-                sha256 = "6cbf59250f2ee1f0208f8df792b8cd754af3c12e352046a3621a47ab196a3778",
+                sha256 = "babddb85a1bfcab0f313db7269a03904ba63d5fd7f5cf73c4be3fb3a6e5f7f98",
                 size = 10595,
             },
             hooks = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/zmxy6/zmxy6_hooks.lua",
-                sha256 = "1580870f5d14a9128d982bfa63913717dd40b7d54ff7315775a96e4c85d59e00",
-                size = 35024,
+                sha256 = "43d3177f5ca3ae862d5fa4b4183aab4f50dda2f1acc666e86aee901169d287e3",
+                size = 36958,
             },
             meta = {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/zmxy6/scripts.meta.json",
@@ -319,7 +325,7 @@ games = {
         scripts = {
             {
                 url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/zmxy6/zmxy6.lua.enc",
-                sha256 = "6cbf59250f2ee1f0208f8df792b8cd754af3c12e352046a3621a47ab196a3778",
+                sha256 = "babddb85a1bfcab0f313db7269a03904ba63d5fd7f5cf73c4be3fb3a6e5f7f98",
                 size = 10595,
                 name = "zmxy6",
             },
@@ -329,6 +335,6 @@ games = {
 
 common = {
     url = "https://raw.githubusercontent.com/Maruu1/xy-content/main/common.lua.enc",
-    sha256 = "204fbf2c628a5bdbc746849b081c8c1f4a048842a7e8483b7c926124e0e5a123",
+    sha256 = "4778e1db3cef3d7d8c9fe9b58e43eba56394a5feba25da4187c9afb74111b216",
     size = 5623,
 }
