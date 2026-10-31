@@ -7,7 +7,8 @@
     "version.latest": "最新版本号，如 1.4.18",
     "version.number": "版本号数字，算法 major*1000000 + minor*1000 + patch；1.4.17 = 1004017",
     "version.content": "更新说明；留空则不提示更新",
-    "version.url": "下载地址，格式「直链|外链」"
+    "version.url": "下载地址，格式「直链|外链」",
+    "version.minNumber": "最低可用版本号（整数，同 number 算法）。本地 < 该值 → 强制更新：弹窗去掉「本次忽略」，且拒绝加载任何脚本。0 = 不强制"
   },
   "notice": "",
   "popup": "",
@@ -15,6 +16,7 @@
   "version": {
     "latest": "1.4.17",
     "number": 1004017,
+    "minNumber": 0,
     "content": "",
     "url": ""
   }
